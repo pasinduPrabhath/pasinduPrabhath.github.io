@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pasindu | CodePicasso</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #075E54;
+      --secondary: #128C7E;
+      --accent: #25D366;
+      --bg: #f7f9fa;
+      --text: #222;
+      --card: #fff;
+      --shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    body {
+      margin: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: linear-gradient(135deg, var(--primary), var(--secondary), var(--accent));
+      min-height: 100vh;
+      color: var(--text);
+    }
+    .container {
+      max-width: 650px;
+      margin: 40px auto;
+      background: var(--card);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 36px 28px 28px 28px;
+      text-align: center;
+    }
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--accent);
+      margin-bottom: 18px;
+      background: #eee;
+    }
+    h1 {
+      font-size: 2.2rem;
+      letter-spacing: 1px;
+      margin: 0 0 8px 0;
+      color: var(--primary);
+    }
+    .brand {
+      font-size: 1.1rem;
+      color: var(--secondary);
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    p {
+      font-size: 1.05rem;
+      color: #444;
+      margin: 0 0 18px 0;
+    }
+    .social {
+      margin: 18px 0 24px 0;
+    }
+    .social a {
+      text-decoration: none;
+      color: var(--primary);
+      margin: 0 10px;
+      font-size: 1.35rem;
+      transition: color 0.2s;
+    }
+    .social a:hover {
+      color: var(--accent);
+    }
+    .apps-list {
+      margin: 0 auto 18px auto;
+      padding: 0;
+      list-style: none;
+      max-width: 420px;
+    }
+    .apps-list li {
+      background: var(--bg);
+      margin: 10px 0;
+      padding: 16px 18px;
+      border-radius: 10px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.03);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.05rem;
+    }
+    .apps-list a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    .apps-list a:hover {
+      color: var(--accent);
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 18px 6vw;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      .apps-list li {
+        font-size: 0.99rem;
+        padding: 12px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Add your photo here or use a placeholder avatar -->
+    <img src="https://ui-avatars.com/api/?name=Pasindu&background=25D366&color=fff&size=220" alt="Pasindu Avatar" class="avatar">
+    <div class="brand">CodePicasso</div>
+    <h1>Pasindu</h1>
+    <p>Software Developer & App Creator<br>
+      Building modern, user-friendly Android apps.<br>
+      Founder of <b>CodePicasso</b>.
+    </p>
+    <div class="social">
+      <a href="mailto:pasinduprabhath@email.com" title="Email">&#9993;</a>
+      <a href="https://github.com/pasinduPrabhath" title="GitHub">&#xf09b;</a>
+      <a href="https://play.google.com/store/apps/dev?id=4677232889727066009" title="Google Play">&#xf3ab;</a>
+      <!-- Add more links as needed (LinkedIn, Twitter, etc.) -->
+    </div>
+    <h2 style="color:var(--secondary);margin-bottom:10px;">My Apps</h2>
+    <ul class="apps-list">
+      <li>
+        <span>Status Saver Pro</span>
+        <a href="https://play.google.com/store/apps/details?id=com.statussaverpro.app" target="_blank">View on Play Store</a>
+      </li>
+      <!-- Add more apps below -->
+      <!--
+      <li>
+        <span>Another App Name</span>
+        <a href="https://play.google.com/store/apps/details?id=ANOTHER_APP_ID" target="_blank">View on Play Store</a>
+      </li>
+      -->
+    </ul>
+    <p style="font-size:0.95rem;color:#aaa;margin-top:28px;">&copy; 2025 Pasindu | CodePicasso</p>
+  </div>
+  <!-- Font Awesome for icons (CDN) -->
+  <script src="https://kit.fontawesome.com/8a2a9d1e8a.js" crossorigin="anonymous"></script>
+</body>
+</html>
